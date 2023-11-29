@@ -1,0 +1,17 @@
+<button pButton type="button" class="p-button-text p-button-sm p-button-primary btn-consultar"
+        label="Open Users"
+        (click)="openUsers()">
+</button>
+<button pButton type="button" class="p-button-text p-button-sm p-button-primary btn-consultar"
+        label="Open Products"
+        (click)="openProducts()">
+</button>
+
+
+<!--<div *ngIf="isUSer">
+  <app-usuario></app-usuario>
+</div>-->
+
+<div *ngIf="isProduct">
+  <app-producto></app-producto>
+</div>
